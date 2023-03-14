@@ -1,0 +1,138 @@
+.paginationEvent {
+    height: 20%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.buttonPaginationEvents3dots {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #c7c6c8;
+    border-radius: 38px;
+    flex: none;
+    flex-grow: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.216667px;
+    margin-left: 30px;
+    
+}
+
+.buttonPaginationEvents {
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+
+    border: 1px solid #c7c6c8;
+    border-radius: 38px;
+
+    flex: none;
+
+    flex-grow: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.216667px;
+    margin-left: 30px;
+}
+
+.iconWhiteBack {
+    width: 60px;
+    height: 60px;
+    background: #f4f3f6;
+    border-radius: 38px;
+    border: none;
+    margin-left: 30px;
+}
+
+.colorSelectedButton {
+    background-color: #0075ef;
+    color: white;
+    box-sizing: border-box;
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 38px;
+    border: none;
+    flex: none;
+
+    flex-grow: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.216667px;
+    margin-left: 30px;
+}
+
+
+.paginationEvent {
+    height: 20%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.containerFatherMovies {
+    display: line;
+    width: 100%;
+}
+
+.containerLineMovies {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cardMovie {
+    background-color: #f2e9e4;
+    width: 350px;
+    height: 500px;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.imageMovie {
+    width: 250px;
+    height: 300px;
+}
+
+.container {
+    background-color: #9a8c98;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title {
+    max-height: 100px;
+    max-width: 290px;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+@media screen and (max-width: 1183px) {
+    .containerLineMovies {
+        display: inline;
+    }
+    .containerMoviesCenter {
+        align-items: end;
+        justify-content: center;
+    }
+    
+}

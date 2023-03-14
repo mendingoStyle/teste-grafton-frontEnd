@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+main {
+    overflow-x: hidden !important;
+}
+
+body {
+    height: 100vh;
+
+    font-family: 'Roboto' !important;
+    font-style: normal;
+    letter-spacing: 0.25px;
+    background-color: #9a8c98;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    --red: #ff0000;
+    --background-blue: #091336;
+    --buttonBackground: #086aad;
+    --buttonBackgroundAtivo: #f2f2f2;
+    --buttonColor: #ffffff;
+    --buttonColorAtivo: #373131;
+    --darkButton: #446026;
+    --darkAtivo: #e7e7e7;
+    --tannat: #23a8cf;
+    --tannatHover: #25759a;
+    --blue: #086aad;
+    --statusAtivo: #4fbfa5;
+    --chardonnay: #00b495;
+    --chardonnayHover: #007863;
+    --tavel: #f79552;
+    --tavelHover: #cc7b44;
+    --vermelho: #e74c3c;
+    --vermelhoHover: #c0392b;
+    --cinza: #dadada;
+    --cinzaEscuro: #85898e;
+    --statusInativo: #e46e6e;
+    --cinzaFundoTexto: #f8f9fc;
+    --whiteHover: #ffffff;
+    --white: #ffffff;
+}
+
+.sidebar .MuiListItem-button:hover {
+    background-color: var(--darkAtivo) !important;
+}
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+    color: var(--tannat) !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-weight: 700 !important;
+    text-align: left;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+.MuiButton-root {
+    text-transform: none !important;
+}
+
+.primary {
+    color: var(--tannatHover) !important;
+}
+
+.secondary {
+    color: var(--chardonnay) !important;
+}
+
+.MuiTypography-h3 {
+    font-size: 2rem !important;
+}
+
+.MuiTypography-h6 {
+    font-weight: 550;
+}
+
+.button {
+    color: white !important;
+    /* box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1), 0px 1px 18px rgba(0, 0, 0, 0.06),
+        0px 2px 10px rgba(0, 0, 0, 0.07) !important; */
+}
+
+.CTA {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+/* .buttonContainedRounded {
+    border-radius: 32px !important;
+} */
+
+.buttonContainedColorPrimary {
+    background-color: var(--buttonBackground) !important;
+    color: var(--buttonColor) !important;
+}
+
+.buttonContainedColorPrimary:hover {
+    background-color: var(--buttonBackgroundAtivo) !important;
+    color: var(--buttonColorAtivo) !important;
+}
+
+.buttonContainedColorSecondary {
+    background-color: var(--chardonnay) !important;
+}
+
+.buttonContainedColorSecondary:hover {
+    background-color: var(--chardonnayHover) !important;
+}
+
+.buttonContainedColorAlert {
+    background-color: var(--tavel) !important;
+}
+
+.buttonContainedColorAlert:hover {
+    background-color: var(--tavelHover) !important;
+}
+.buttonContainedColorDanger {
+    background-color: var(--vermelho) !important;
+}
+
+.buttonContainedColorDanger:hover {
+    background-color: var(--vermelhoHover) !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.width100 {
+    min-width: 100%;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.flexJustifyStart {
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.flexJustifyCenter {
+    justify-content: center;
+}
+
+.flexAlignItemsCenter {
+    align-items: center;
+}
+
+.flexJustifySpaceBetween {
+    justify-content: space-between;
+}
+
+.flexJustifySpaceEvenly {
+    justify-content: space-evenly;
+}
+
+.flexJustifyEnd {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.flexWrapCenterCenter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.MuiButton-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26) !important;
+    background-color: var(--cinza) !important;
+}
+
+.separator {
+    height: 1px;
+    max-height: 1px;
+    background-color: #cccccc;
+}
+
+.separatorForPaper {
+    height: 1px;
+    max-height: 1px;
+    background-color: #eaeaea;
+}
+
+.divider {
+    height: 0;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    border-top: 1px solid #e9ecef;
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    min-width: 100%;
+    /* padding: 0px 30px; */
+}
+
+#nprogress .spinner {
+    margin-top: 64px;
+}
+
+.MuiTextField-root {
+    min-width: 100% !important;
+}
+
+.formControlSelect {
+    min-width: 100% !important;
+    max-width: 100% !important;
+}
+
+.MuiPickersToolbar-toolbar,
+.MuiPickerDTTabs-tabs,
+.MuiPickersDay-daySelected,
+.MuiPickersClockPointer-noPoint,
+.MuiPickersClockPointer-pointer,
+.MuiPickersClock-pin {
+    background-color: var(--tannat) !important;
+}
+
+.MuiPickersClockPointer-thumb {
+    border: 14px solid var(--tannat) !important;
+}
+
+.MuiPickersYearSelection-container > .MuiTypography-colorPrimary {
+    color: var(--tannat);
+}
+
+.MuiPickersModal-dialogRoot > .MuiDialogActions-root > .MuiButton-textPrimary {
+    color: var(--tannat);
+}
+
+/* .MuiButton-text {
+    padding: 12px 8px !important;
+} */
+
+.divGrayBackground {
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    min-height: 56px;
+    background-color: var(--cinzaFundoTexto);
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px;
+}
+
+.skeleton {
+    margin-top: 35px;
+}
+
+.containerTopOfPaper {
+    margin-top: 20px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.MuiInputLabel-root {
+    font-size: 14px !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media (max-width: 600px) {
+    .flex > :nth-child(1n) {
+        margin-top: 15px !important;
+    }
+    .flexJustifySpaceBetween {
+        justify-content: center;
+    }
+
+    .flexJustifySpaceBetween * {
+        text-align: center !important;
+    }
+
+    .flexWrap * {
+        min-width: 100% !important;
+    }
+
+    .width100Responsive {
+        min-width: 100% !important;
+    }
+
+    main {
+        padding: 7px !important;
+    }
+}
+
+header .navbar {
+    overflow-x: visible !important;
+}
